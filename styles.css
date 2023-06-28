@@ -29,6 +29,11 @@ body {
   margin: auto;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+@media (max-width: 56.25em) {
+  .wrapper {
+    width: 100%;
+  }
+}
 
 input {
   padding: 0.25rem;
