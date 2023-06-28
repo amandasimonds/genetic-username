@@ -50,14 +50,21 @@ button {
   border: 1px solid gray;
   border-radius: 4px;
   padding: 0.7rem;
+  display: flex;
+  align-items: center;
 }
 .radio-button input {
   cursor: pointer;
   margin-right: 8px;
   transform: scale(1.5);
 }
-.radio-button label {
-  color: purple;
+.generated-word {
+  font-size: 1.5rem;
+  opacity: 0;
+}
+.generated-word-display {
+  opacity: 1;
+  transition: all 0.25s;
 }
 
 /*# sourceMappingURL=styles.css.map */

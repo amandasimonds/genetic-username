@@ -8,20 +8,21 @@
 		/>
 		<link rel="stylesheet" href="styles.css" />
 		<script src="script.js" async type="module"></script>
-		<title>Genetic Usernames</title>
+		<title>Genetic Username</title>
 	</head>
 	<body>
 		<div>
 			<form action="" class="wrapper">
 				<h1>Generate a Username</h1>
 
+				<p>A curated list of word combinations</p>
 				<p>Inspired by a typo on a reddit thread.</p>
-				<input
+				<!-- <input
 					type="text"
 					value=""
 					id="genetic"
 					placeholder="type in a genetic"
-				/>
+				/> -->
 				<div class="radio-button-container">
 					<div class="radio-button">
 						<input
@@ -29,7 +30,7 @@
 							name="wordCount"
 							id="wordCount2"
 							value="2"
-						/><label for="wordCount">2</label>
+						/><label for="wordCount">2 words</label>
 					</div>
 					<div class="radio-button">
 						<input
@@ -37,13 +38,13 @@
 							name="wordCount"
 							id="wordCount3"
 							value="3"
-						/><label for="wordCount2">3</label>
+						/><label for="wordCount2">3 words</label>
 					</div>
 				</div>
 				<button id="generateButton">
 					Click to Generate a Username
 				</button>
-				<span id="generatedWord"></span>
+				<span id="generatedWord" class="generated-word"></span>
 			</form>
 		</div>
 	</body>

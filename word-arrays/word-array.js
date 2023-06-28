@@ -41,5 +41,12 @@ export const wordArray = [
     'prince',
     'warrior',
     'cowboy',
-    'ocean'
+    'ocean',
+    'houseplant',
+    'lurker',
+    'redditor',
+    'rabbit',
+    'hobbit',
+    'nerd',
+    'shadow'
 ];

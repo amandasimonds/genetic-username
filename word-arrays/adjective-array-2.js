@@ -29,5 +29,16 @@ export const adjectiveArray2 = [
     'little',
     'awkward',
     'rainbow',
-    'space'
+    'space',
+	'sneaky',
+	'mythical',
+	'word',
+	'lurking',
+	'wandering',
+	'pondering',
+	'ponder',
+	'thought',
+	'shadow',
+	'weird',
+	'nerd'
 ];

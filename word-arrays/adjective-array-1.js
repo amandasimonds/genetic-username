@@ -1,8 +1,10 @@
 export const adjectiveArray1 = [
 	'the',
+	'the',
 	'first',
 	'only',
 	'a',
+	'one',
 	'one',
 	'strange',
 	'concluded',
@@ -28,7 +30,12 @@ export const adjectiveArray1 = [
     'knowledgeable',
     'amazingly',
     'the_first',
+	'the_first',
     'interesting',
     'infinite',
-    'inverted'
+    'inverted',
+	'relentless',
+	'objectively',
+	'the_last',
+	'just_a'
 ];

@@ -44,12 +44,12 @@ body {
 	flex-direction: column;
 	gap: 1rem;
 	align-items: center;
-    border: 1px solid rgb(210, 210, 210);
-    border-radius: 8px;
-    width: 50%;
-    padding: 3rem;
-    margin: auto;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border: 1px solid rgb(210, 210, 210);
+	border-radius: 8px;
+	width: 50%;
+	padding: 3rem;
+	margin: auto;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 input {
@@ -59,8 +59,8 @@ input {
 button {
 	padding: 0.25rem;
 	cursor: pointer;
-    font-family: 'Lato', sans-serif;
-    font-size: 1rem;
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
 }
 
 .radio-button-container {
@@ -70,16 +70,27 @@ button {
 
 .radio-button {
 	border: 1px solid gray;
-    border-radius: 4px;
-	padding: .7rem;
+	border-radius: 4px;
+	padding: 0.7rem;
+	display: flex;
+	align-items: center;
 
 	input {
 		cursor: pointer;
-        margin-right: 8px;
-        transform: scale(1.5);
+		margin-right: 8px;
+		transform: scale(1.5);
 	}
 
-    label {
-        color: purple
-    }
+	label {
+	}
+}
+
+.generated-word {
+	font-size: 1.5rem;
+	opacity: 0;
+
+	&-display {
+		opacity: 1;
+		transition: all .25s;
+	}
 }
