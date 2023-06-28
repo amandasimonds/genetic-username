@@ -6,22 +6,6 @@
   box-sizing: inherit;
 }
 
-@media (max-width: 75em) {
-  html {
-    font-size: 56.25%;
-  }
-}
-@media (max-width: 56.25em) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (min-width: 112.5em) {
-  html {
-    font-size: 80%;
-  }
-}
-
 body {
   box-sizing: border-box;
   padding: 3rem;
@@ -29,7 +13,7 @@ body {
 }
 @media (max-width: 56.25em) {
   body {
-    padding: 0;
+    padding: 2rem 1rem;
   }
 }
 
@@ -38,6 +22,12 @@ body {
   flex-direction: column;
   gap: 1rem;
   align-items: center;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 8px;
+  width: 50%;
+  padding: 3rem;
+  margin: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 input {
@@ -47,6 +37,27 @@ input {
 button {
   padding: 0.25rem;
   cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+
+.radio-button-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.radio-button {
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 0.7rem;
+}
+.radio-button input {
+  cursor: pointer;
+  margin-right: 8px;
+  transform: scale(1.5);
+}
+.radio-button label {
+  color: purple;
 }
 
 /*# sourceMappingURL=styles.css.map */

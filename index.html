@@ -1,21 +1,50 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" async></script>
-    <title>Genetic Usernames</title>
-</head>
-<body>
-    <div class="wrapper">
-        <h1>Generate a Username</h1>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="script.js" async type="module"></script>
+		<title>Genetic Usernames</title>
+	</head>
+	<body>
+		<div>
+			<form action="" class="wrapper">
+				<h1>Generate a Username</h1>
 
-        <p>Inspired by a typo on a reddit thread.</p>
-
-        <input type="text" value="" id="genetic" placeholder="type in a genetic">
-        <button id="generateButton">Click to Generate a Username</button>
-        <span id="generatedWord"></span>
-    </div>
-</body>
+				<p>Inspired by a typo on a reddit thread.</p>
+				<input
+					type="text"
+					value=""
+					id="genetic"
+					placeholder="type in a genetic"
+				/>
+				<div class="radio-button-container">
+					<div class="radio-button">
+						<input
+							type="radio"
+							name="wordCount"
+							id="wordCount2"
+							value="2"
+						/><label for="wordCount">2</label>
+					</div>
+					<div class="radio-button">
+						<input
+							type="radio"
+							name="wordCount"
+							id="wordCount3"
+							value="3"
+						/><label for="wordCount2">3</label>
+					</div>
+				</div>
+				<button id="generateButton">
+					Click to Generate a Username
+				</button>
+				<span id="generatedWord"></span>
+			</form>
+		</div>
+	</body>
 </html>
