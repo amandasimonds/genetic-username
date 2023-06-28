@@ -45,5 +45,6 @@ export const adjectiveArray1 = [
 	'quarter',
 	'intelligent',
 	'committed',
-	'peaceful'
+	'peaceful',
+	'ace_of'
 ];

@@ -57,5 +57,7 @@ export const wordArray = [
     'snarf',
     'firecracker',
     'unicorn',
-    'toad'
+    'toad',
+    'akita',
+    'pirate'
 ];
