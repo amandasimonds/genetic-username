@@ -40,5 +40,7 @@ export const adjectiveArray2 = [
 	'thought',
 	'shadow',
 	'weird',
-	'nerd'
+	'nerd',
+	'peace',
+	'wine'
 ];

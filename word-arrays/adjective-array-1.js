@@ -43,5 +43,7 @@ export const adjectiveArray1 = [
 	'open',
 	'above_the',
 	'quarter',
-	'intelligent'
+	'intelligent',
+	'committed',
+	'peaceful'
 ];
