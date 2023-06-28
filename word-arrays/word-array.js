@@ -48,5 +48,11 @@ export const wordArray = [
     'rabbit',
     'hobbit',
     'nerd',
-    'shadow'
+    'dust',
+    'shadow',
+    'bottle-of-emotion',
+    'being',
+    'toaster',
+    'polygon',
+    'snarf'
 ];

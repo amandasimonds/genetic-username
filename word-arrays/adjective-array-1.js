@@ -37,5 +37,11 @@ export const adjectiveArray1 = [
 	'relentless',
 	'objectively',
 	'the_last',
-	'just_a'
+	'just_a',
+	'experience_the',
+	'considerate',
+	'open',
+	'above_the',
+	'quarter',
+	'intelligent'
 ];
