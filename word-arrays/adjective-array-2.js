@@ -42,5 +42,11 @@ export const adjectiveArray2 = [
 	'weird',
 	'nerd',
 	'peace',
-	'wine'
+	'wine',
+	'majestic',
+	'electric',
+	'hypno',
+	'astro',
+	'solar',
+	'dusty'
 ];

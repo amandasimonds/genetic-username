@@ -46,5 +46,10 @@ export const adjectiveArray1 = [
 	'intelligent',
 	'committed',
 	'peaceful',
-	'ace_of'
+	'ace_of',
+	'the_elusive',
+	'brightest',
+	'super',
+	'orbital',
+	'outer'
 ];

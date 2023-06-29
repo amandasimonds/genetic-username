@@ -59,5 +59,11 @@ export const wordArray = [
     'unicorn',
     'toad',
     'akita',
-    'pirate'
+    'pirate',
+    'thinker',
+    'dolphin',
+    'star',
+    'astronaut',
+    'meteor',
+    'pulsar'
 ];
