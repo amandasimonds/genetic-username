@@ -2,7 +2,12 @@ import { adjectiveArray1 } from './word-arrays/adjective-array-1.js';
 import { adjectiveArray2 } from './word-arrays/adjective-array-2.js';
 import { wordArray } from './word-arrays/word-array.js';
 
-const spacerArray = ['', '-', '_', '-', '_', '-', '_', '-', '_'];
+const spacerArray = ['-', '_', '-', '_', '-', '_', '-', '_'];
+
+var generateUsernameButton = document.getElementById('generateButton');
+var saveUsernameButton = document.getElementById('saveUsernameButton');
+var savedUsernames = [];
+var savedUsernamesDiv = document.getElementById('saved-usernames');
 
 const generate2WordUsername = () => {
 	const newArray = adjectiveArray1.concat(adjectiveArray2);
@@ -38,6 +43,19 @@ const generateUsername = (event) => {
 	}
 };
 
-document
-	.getElementById('generateButton')
-	.addEventListener('click', generateUsername);
+const saveUsername = (event) => {
+	event.preventDefault();
+	const usernameToBeSaved = generatedWord.innerHTML;
+	const lastUsernameIndex = savedUsernames.length - 1;
+	if (usernameToBeSaved === savedUsernames[lastUsernameIndex]) {
+		return;
+	} else {
+		savedUsernames.push(generatedWord.innerHTML);
+	}
+	savedUsernamesDiv.innerHTML = savedUsernames;
+};
+
+savedUsernamesDiv.innerHTML = savedUsernames;
+
+generateUsernameButton.addEventListener('click', generateUsername);
+saveUsernameButton.addEventListener('click', saveUsername);
